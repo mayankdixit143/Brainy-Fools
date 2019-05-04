@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "124818338402",
+    "firebase_url": "https://plucky-vault-181916.firebaseio.com",
+    "project_id": "plucky-vault-181916",
+    "storage_bucket": "plucky-vault-181916.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124818338402:android:c2b6557f0a809349",
+        "android_client_info": {
+          "package_name": "vinamra.example.com.brainyfools"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124818338402-ql5k8gf9anitndst5hqjaolu84tk8bt5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vinamra.example.com.brainyfools",
+            "certificate_hash": "6732c95e83ac605af628ea9fd39dec6262931247"
+          }
+        },
+        {
+          "client_id": "124818338402-pvemh1ikck2rk2v25m8n5mjqjqplld5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIXX4D2smOXX6XAANQuA-Xx9t9lGbAqAg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124818338402-pvemh1ikck2rk2v25m8n5mjqjqplld5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#23A7D8</color>
+    <color name="colorPrimaryDark">#23A7D8</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="gradStart">#19AA8B</color>
+    <color name="gradStop">#23A7D8</color>
+    <color name="circleBorder">#50FFFFFF</color>
+    <color name="solidCircle">#AAFFFFFF</color>
+    <color name="headings">#3797CF</color>
+    <color name="grey">#E5E5E5</color>
+    <color name="color">#FF449096</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="toggle">#1a271c</color>
+    <color name="alert">#FFCB3131</color>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Brainy Fools</string>
+    <string name="select_to_allow_alert">select to allow / allert</string>
+    <string name="ring_alarm">Ring Alarm</string>
+    <string name="save_image">Save Image</string>
+    <string name="normal_mode">alert mode</string>
+    <string name="alert_mode">normal mode</string>
+    <string name="todo">TODO</string>
+    <string name="save_an_image">save an image</string>
+    <string name="toggle_button">ToggleButton</string>
+    <string name="switch_for_live_feed">Switch for live feed</string>
+    <string name="livefeed">Livefeed</string>
+    <string name="pictures">showing last shown person only</string>
+    <string name="mode">Door access</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

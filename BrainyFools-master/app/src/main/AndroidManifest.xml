@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vinamra.example.com.brainyfools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Views.SelectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Views.DashBoardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Views.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Views.ListEmployees"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Views.SendMessage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Views.StatusActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Views.SurveillanceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Views.AccessControlActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Views.IntrusionActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".Services.LocationMonitoringService"
+            android:enabled="true"
+            android:stopWithTask="false" />
+        <service
+            android:name=".Services.MyService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity android:name=".Views.LiveStreamActivity"
+           android:screenOrientation="portrait" />
+        <activity android:name=".Views.RequestLeavesActivity"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
